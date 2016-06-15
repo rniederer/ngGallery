@@ -3,9 +3,8 @@
 
     angular.module('jkuri.gallery', []).directive('ngGallery', ngGallery);
 
-    ngGallery.$inject = ['$document', '$timeout', '$q', '$templateCache', 'MessageBus'];
+    ngGallery.$inject = ['$templateCache', 'MessageBus'];
 
-    // function ngGallery($document, $timeout, $q, $templateCache, MessageBus) {
     function ngGallery($templateCache, MessageBus) {
 
         var defaults = {
