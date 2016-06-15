@@ -1,5 +1,3 @@
-GEOINFO
-
 ngGallery
 =========
 
